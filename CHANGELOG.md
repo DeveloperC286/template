@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 (2025-11-21)
+
+## What's Changed
+* feat: removing Renovate Dockerfile configuration by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/9
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.1.0...v1.2.0
+
 ## 1.1.0 (2025-11-21)
 
 ## What's Changed
