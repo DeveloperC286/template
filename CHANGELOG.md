@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0 (2025-11-21)
+
+## What's Changed
+* ci: GitHub Actions formatting/linting workflow by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/5
+* feat: storing Copier config/answers by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/7
+* feat: adding Rust Renovate Nix manager by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/8
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.0.0...v1.1.0
+
 ## 1.0.0 (2025-11-20)
 
 ## What's Changed
