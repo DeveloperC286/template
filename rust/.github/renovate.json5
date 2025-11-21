@@ -1,0 +1,59 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices"
+  ],
+  "automerge": true,
+  "ignorePaths": [
+    ".github/workflows/dogfood-github-actions.yml"
+  ],
+  "dockerfile": {
+    "managerFilePatterns": [
+      "/(^|/|\\.)Dockerfile$/",
+      "/(^|/)Dockerfile[^/]*$/"
+    ]
+  },
+  "nix": {
+    "enabled": true
+  },
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/(^|/|\\.)Dockerfile$/",
+        "/(^|/)Dockerfile[^/]*$/"
+      ],
+      "matchStrings": [
+        "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s.+_VERSION=\"(?<currentValue>.*?)\"\\s"
+      ]
+    },
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/(^|/|\\.)Dockerfile$/",
+        "/(^|/)Dockerfile[^/]*$/"
+      ],
+      "matchStringsStrategy": "recursive",
+      "matchStrings": [
+        "FROM\\s*.*?alpine[.:]?(?<alpineMajor>\\d+)\\.(?<alpineMinor>\\d+)(?:\\n|.)*",
+        "apk\\s+add\\s+(?:\\n|.)*?[^\\\\]\\n",
+        "(?<name>[^\\s=~]+)~?=(?<currentValue>[^\\s=]+)"
+      ],
+      "datasourceTemplate": "repology",
+      "depNameTemplate": "alpine_{{alpineMajor}}_{{alpineMinor}}/{{name}}",
+      "versioningTemplate": "loose"
+    },
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/(^|/|\\.)Makefile$/",
+        "/(^|/)Makefile[^/]*$/"
+      ],
+      "matchStrings": [
+        "# renovate: depName=(?<depName>.*?)\\s.+_VERSION=(?<currentValue>[a-z0-9.-]+)(?:@(?<currentDigest>sha256:[a-f0-9]+))?"
+      ],
+      "datasourceTemplate": "docker",
+      "versioningTemplate": "docker"
+    }
+  ]
+}
