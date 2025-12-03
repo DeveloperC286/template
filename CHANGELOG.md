@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.3.1 (2025-12-03)
+
+## What's Changed
+* ci: adding Renovate by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/14
+* chore(deps): update actions/checkout action to v6 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/17
+* ci: running on ubuntu-24.04 by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/19
+
+## New Contributors
+* @renovate[bot] made their first contribution in https://github.com/DeveloperC286/template/pull/17
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.3.0...v1.3.1
+
 ## 1.3.0 (2025-12-03)
 
 ## What's Changed
