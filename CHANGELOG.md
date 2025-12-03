@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.3.0 (2025-12-03)
+
+## What's Changed
+* feat: Docker run -> GitHub Actions workflows by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/11
+* feat: Renovate removing Makefile regex by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/13
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.2.0...v1.3.0
+
 ## 1.2.0 (2025-11-21)
 
 ## What's Changed
