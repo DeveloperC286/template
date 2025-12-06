@@ -7,6 +7,9 @@
   "ignorePaths": [
     ".github/workflows/dogfood-github-actions.yml"
   ],
+  "github-actions": {
+    "enabled": false
+  },
   "nix": {
     "enabled": true
   },
