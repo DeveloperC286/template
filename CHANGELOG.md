@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.4.0 (2025-12-06)
+
+## What's Changed
+* ci: disabling Renovates GitHub Actions manager by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/20
+* feat: adding Rust flake.nix by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/22
+* feat: adding Rust .gitignore by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/23
+* feat: adding .yamlfmt config by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/24
+* feat: adding Release Please config by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/25
+* feat: adding Rust Cargo config by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/26
+* feat: adding GitHub Actions workflows by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/27
+* refactor: removing unused Renovate ignore path by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/28
+* refactor: adding exact GitHub Actions versions by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/29
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.3.1...v1.4.0
+
 ## 1.3.1 (2025-12-03)
 
 ## What's Changed
