@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.1 (2025-12-07)
+
+## What's Changed
+* refactor: formatting GitHub Action workflows by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/30
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.4.0...v1.4.1
+
 ## 1.4.0 (2025-12-06)
 
 ## What's Changed
