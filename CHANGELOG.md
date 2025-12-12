@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.5 (2025-12-12)
+
+## What's Changed
+* fix: removing unknown Docker --verbose parameter by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/41
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.4.4...v1.4.5
+
 ## 1.4.4 (2025-12-12)
 
 ## What's Changed
