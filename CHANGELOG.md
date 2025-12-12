@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.4.2 (2025-12-12)
+
+## What's Changed
+* chore(deps): update anthropics/claude-code-action action to v1.0.23 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/32
+* chore(deps): update cachix/install-nix-action action to v31.9.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/34
+* ci: Renovate updating Nix flake lockfile by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/35
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.4.1...v1.4.2
+
 ## 1.4.1 (2025-12-07)
 
 ## What's Changed
