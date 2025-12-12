@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.4 (2025-12-12)
+
+## What's Changed
+* ci: Makefile -> Jinja by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/39
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.4.3...v1.4.4
+
 ## 1.4.3 (2025-12-12)
 
 ## What's Changed
