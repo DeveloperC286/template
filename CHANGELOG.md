@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.3 (2025-12-12)
+
+## What's Changed
+* ci: Docker dogfooding mimicking GitHub Actions by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/37
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.4.2...v1.4.3
+
 ## 1.4.2 (2025-12-12)
 
 ## What's Changed
