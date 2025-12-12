@@ -5,6 +5,11 @@
   ],
   "automerge": true,
   "nix": {
-    "enabled": true
+    "enabled": true,
+    "lockFileMaintenance": {
+      "enabled": true,
+      "commitMessageAction": "update",
+      "commitMessageTopic": "Nix flake lock"
+    }
   }
 }
