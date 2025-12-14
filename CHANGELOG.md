@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.4.6 (2025-12-14)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/36
+* build: aarch64 same Cargo flags by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/44
+* build: removing Mac release building by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/45
+* build: disabling Nix's hardening by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/46
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.4.5...v1.4.6
+
 ## 1.4.5 (2025-12-12)
 
 ## What's Changed
