@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.7 (2025-12-14)
+
+## What's Changed
+* build: disabling Rust template's Nix hardening by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/47
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.4.6...v1.4.7
+
 ## 1.4.6 (2025-12-14)
 
 ## What's Changed
