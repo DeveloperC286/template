@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.8 (2025-12-14)
+
+## What's Changed
+* ci: publish-binary.sh project specific by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/49
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.4.7...v1.4.8
+
 ## 1.4.7 (2025-12-14)
 
 ## What's Changed
