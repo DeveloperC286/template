@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.4.9 (2025-12-25)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/51
+* chore(deps): update anthropics/claude-code-action action to v1.0.25 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/53
+* ci: adding GitLab mirroring by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/54
+* chore(deps): update anthropics/claude-code-action action to v1.0.26 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/55
+* chore(deps): update docker/setup-buildx-action action to v3.12.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/56
+* chore(deps): update anthropics/claude-code-action action to v1.0.27 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/57
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/58
+* fix: use native ARM64 runners for Docker builds to avoid QEMU issues by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/60
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.4.8...v1.4.9
+
 ## 1.4.8 (2025-12-14)
 
 ## What's Changed
