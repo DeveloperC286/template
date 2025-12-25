@@ -13,3 +13,7 @@ fix-yaml-formatting:
 .PHONY: check-github-actions-workflows-linting
 check-github-actions-workflows-linting:
 	actionlint -verbose -color
+
+.PHONY: check-scripts-permissions
+check-scripts-permissions:
+	./ci/check-scripts-permissions.sh
