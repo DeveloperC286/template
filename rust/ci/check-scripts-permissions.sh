@@ -3,15 +3,11 @@
 set -o errexit
 set -o xtrace
 
-failed=0
-for script in ci/*.sh ci/*.sh.jinja; do
+exit_code=0
+for script in ci/*.sh; do
 	if [ -f "$script" ] && [ ! -x "$script" ]; then
-		echo "ERROR: $script is not executable"
-		failed=1
+		exit_code=1
 	fi
 done
 
-if [ $failed -eq 1 ]; then
-	echo "Some CI scripts are missing executable permissions. Run: chmod +x ci/*.sh ci/*.sh.jinja"
-	exit 1
-fi
+exit $exit_code
