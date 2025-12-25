@@ -86,7 +86,3 @@ publish-docker-image:
 .PHONY: publish-docker-manifest
 publish-docker-manifest:
 	./ci/publish-docker-manifest.sh ${RELEASE}
-
-.PHONY: publish-docker
-publish-docker:
-	./ci/publish-docker.sh ${RELEASE}
