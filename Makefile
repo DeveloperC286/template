@@ -17,3 +17,7 @@ check-github-actions-workflows-linting:
 .PHONY: check-scripts-permissions
 check-scripts-permissions:
 	./ci/check-scripts-permissions.sh
+
+.PHONY: check-shellcheck
+check-shellcheck:
+	shellcheck ci/*.sh rust/ci/*.sh
