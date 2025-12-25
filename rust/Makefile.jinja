@@ -50,9 +50,9 @@ check-rust-linting:
 check-github-actions-workflows-linting:
 	actionlint -verbose -color
 
-.PHONY: check-ci-scripts-executable
-check-ci-scripts-executable:
-	./ci/check-executable-permissions.sh
+.PHONY: check-scripts-permissions
+check-scripts-permissions:
+	./ci/check-scripts-permissions.sh
 
 .PHONY: compile
 compile:
