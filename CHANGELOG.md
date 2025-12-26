@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.5.0 (2025-12-26)
+
+## What's Changed
+* chore(deps): update ghcr.io/developerc286/clean_git_history docker tag to v1.1.5 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/63
+* feat: add CI check for executable permissions on shell scripts by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/62
+* feat: add CI check for executable permissions on shell scripts by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/65
+* feat: add shellcheck linting for shell scripts in CI by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/66
+* ci: add shell linting checks to Rust template by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/67
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.4.9...v1.5.0
+
 ## 1.4.9 (2025-12-25)
 
 ## What's Changed
