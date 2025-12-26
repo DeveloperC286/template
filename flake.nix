@@ -19,6 +19,9 @@
           hardeningDisable = [ "all" ];
 
           buildInputs = [
+            # Shell scripts.
+            pkgs.shfmt
+            pkgs.shellcheck
             # GitHub Action Workflows.
             pkgs.yamlfmt
             pkgs.actionlint
