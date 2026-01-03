@@ -3,3 +3,8 @@ _subdirectory: rust
 project_name:
   type: str
   help: What is the project name?
+
+uses_git:
+  type: bool
+  default: false
+  help: Does the tool require Git? (e.g., for analyzing git history)

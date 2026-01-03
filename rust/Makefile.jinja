@@ -88,7 +88,7 @@ GITHUB_ACTIONS_ENV := --env HOME=/github/home --env GITHUB_ACTIONS=true --env CI
 .PHONY: dogfood-docker
 dogfood-docker: release
 	docker build --build-arg TARGET=$(MUSL_TARGET) --tag {{ project_name }} --file Dockerfile .
-	docker run --rm --volume $(PWD):/workspace --workdir /workspace $(GITHUB_ACTIONS_ENV) {{ project_name }} --verbose
+	docker run --rm --volume $(PWD):/workspace --workdir /workspace $(GITHUB_ACTIONS_ENV) {{ project_name }} --verbose{% if uses_git %} $(FROM){% endif %}
 
 .PHONY: publish-docker-image
 publish-docker-image:
