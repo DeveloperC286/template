@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.5.1 (2025-12-29)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/68
+* ci: removing Claude workflows from Rust template by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/70
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.5.0...v1.5.1
+
 ## 1.5.0 (2025-12-26)
 
 ## What's Changed
