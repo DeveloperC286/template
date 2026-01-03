@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.6.0 (2026-01-03)
+
+## What's Changed
+* ci: adding --verbose to dogfooding by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/71
+* refactor: extracting into GITHUB_ACTIONS_ENV variable by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/73
+* feat: adding copier question for Git support by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/74
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.5.1...v1.6.0
+
 ## 1.5.1 (2025-12-29)
 
 ## What's Changed
