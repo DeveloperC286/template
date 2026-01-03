@@ -8,7 +8,7 @@ permissions:
 jobs:
   docker:
     name: Docker
-    runs-on: ${{ matrix.architecture }}
+    runs-on: {% raw %}${{ matrix.architecture }}{% endraw %}
     strategy:
       matrix:
         architecture: [ubuntu-24.04, ubuntu-24.04-arm]
@@ -17,10 +17,10 @@ jobs:
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
 {%- if uses_git %}
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: {% raw %}${{ github.event.pull_request.head.sha }}{% endraw %}
           fetch-depth: 0
 {%- endif %}
       - name: Setup Nix.
         uses: cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15 # v31.9.0
       - name: Dogfooding Docker.
-        run: nix develop -c make dogfood-docker{% if uses_git %} FROM="origin/${{ github.base_ref }}"{% endif %}
+        run: nix develop -c make dogfood-docker{% if uses_git %} FROM="origin/{% raw %}${{ github.base_ref }}{% endraw %}"{% endif %}
