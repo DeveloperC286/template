@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.6.1 (2026-01-03)
+
+## What's Changed
+* fix: escape GitHub Actions expressions in dogfood.yml.jinja by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/75
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.6.0...v1.6.1
+
 ## 1.6.0 (2026-01-03)
 
 ## What's Changed
