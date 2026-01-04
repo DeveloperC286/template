@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.6.2 (2026-01-04)
+
+## What's Changed
+* chore(deps): update ghcr.io/developerc286/clean_git_history docker tag to v1.1.6 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/77
+* chore(deps): update ghcr.io/developerc286/conventional_commits_linter docker tag to v0.17.1 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/78
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.6.1...v1.6.2
+
 ## 1.6.1 (2026-01-03)
 
 ## What's Changed
