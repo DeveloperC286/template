@@ -66,6 +66,10 @@ fix-python-linting:
 check-github-actions-workflows-linting:
 	actionlint -verbose -color
 
+.PHONY: check-rust-dependencies
+check-rust-dependencies:
+	cargo +nightly udeps --all-targets
+
 .PHONY: compile
 compile:
 	cargo build --verbose $(CARGO_LOCKED)
