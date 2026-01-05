@@ -10,6 +10,10 @@ CARGO_LOCKED := $(if $(CI),--locked,)
 .PHONY: default
 default: compile
 
+.PHONY: check-shell-permissions
+check-shell-permissions:
+	./ci/check-scripts-permissions.sh
+
 .PHONY: check-rust-formatting
 check-rust-formatting:
 	cargo fmt --all -- --check --config=group_imports=StdExternalCrate
@@ -61,10 +65,6 @@ fix-python-linting:
 .PHONY: check-github-actions-workflows-linting
 check-github-actions-workflows-linting:
 	actionlint -verbose -color
-
-.PHONY: check-scripts-permissions
-check-scripts-permissions:
-	./ci/check-scripts-permissions.sh
 
 .PHONY: compile
 compile:
