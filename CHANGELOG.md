@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.6.2 (2026-01-05)
+
+## What's Changed
+* chore(deps): update ghcr.io/developerc286/clean_git_history docker tag to v1.1.6 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/77
+* chore(deps): update ghcr.io/developerc286/conventional_commits_linter docker tag to v0.17.1 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/78
+* ci: adding Python linting via Ruff by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/80
+* build: adding Python end-to-end-tests/.gitignore by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/81
+* refactor: reordering targets by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/82
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/83
+* refactor: pairing targets by language by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/84
+* ci: adding Rust check dependencies target by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/85
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.6.1...v1.6.2
+
 ## 1.6.1 (2026-01-03)
 
 ## What's Changed
