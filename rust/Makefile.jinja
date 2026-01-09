@@ -1,8 +1,10 @@
 # Auto-detect musl target for static binaries (Linux only)
+# Only set MUSL_TARGET on supported architectures; targets that need it will check
 MUSL_TARGET := $(shell uname -m | sed 's/^x86_64$$/x86_64-unknown-linux-musl/;s/^aarch64$$/aarch64-unknown-linux-musl/')
-ifeq ($(filter %unknown-linux-musl,$(MUSL_TARGET)),)
-    $(error Unsupported architecture: $(shell uname -m). Static musl builds only supported on Linux x86_64 and aarch64)
-endif
+
+define check-musl-target
+$(if $(filter %unknown-linux-musl,$(MUSL_TARGET)),,$(error Unsupported architecture: $(shell uname -m). Static musl builds only supported on Linux x86_64 and aarch64))
+endef
 
 # Use --locked in CI to ensure reproducible builds
 CARGO_LOCKED := $(if $(CI),--locked,)
@@ -84,6 +86,7 @@ end-to-end-test: compile
 
 .PHONY: release
 release:
+	$(call check-musl-target)
 	cargo build --release --target=$(MUSL_TARGET) --locked --verbose
 
 .PHONY: publish-binary
