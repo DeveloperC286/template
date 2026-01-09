@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.6.3 (2026-01-09)
+
+## What's Changed
+* build: only check MUSL_TARGET on release target by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/86
+* build: switching to cargo machete by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/88
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.6.2...v1.6.3
+
 ## 1.6.2 (2026-01-05)
 
 ## What's Changed
