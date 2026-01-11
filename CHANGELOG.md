@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.6.4 (2026-01-10)
+
+## What's Changed
+* ci: Conventional Commits linting on pull request title/body by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/89
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.6.3...v1.6.4
+
 ## 1.6.3 (2026-01-09)
 
 ## What's Changed
