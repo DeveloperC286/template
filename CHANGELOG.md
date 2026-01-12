@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.6.5 (2026-01-12)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/91
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.6.4...v1.6.5
+
 ## 1.6.4 (2026-01-10)
 
 ## What's Changed
