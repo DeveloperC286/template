@@ -29,3 +29,7 @@ check-shell-linting:
 .PHONY: check-scripts-permissions
 check-scripts-permissions:
 	./ci/check-scripts-permissions.sh
+
+.PHONY: check-common-files
+check-common-files:
+	./ci/check-common-files.sh

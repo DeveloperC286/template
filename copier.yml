@@ -1,10 +1,19 @@
-_subdirectory: rust
+project_type:
+  type: str
+  help: What type of project is this?
+  choices:
+    - rust
+    - basic
+
+_subdirectory: "{{ project_type }}"
 
 project_name:
   type: str
   help: What is the project name?
+  when: "{{ project_type == 'rust' }}"
 
 uses_git:
   type: bool
   default: false
   help: Does the tool require Git? (e.g., for analyzing git history)
+  when: "{{ project_type == 'rust' }}"
