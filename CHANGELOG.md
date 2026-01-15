@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.7.0 (2026-01-15)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/91
+* feat: basic repository template by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/94
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.6.4...v1.7.0
+
 ## 1.6.4 (2026-01-10)
 
 ## What's Changed
