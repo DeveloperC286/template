@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.7.1 (2026-01-15)
+
+## What's Changed
+* ci: release-please updating README.md by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/95
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.0...v1.7.1
+
 ## 1.7.0 (2026-01-15)
 
 ## What's Changed
