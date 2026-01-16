@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.7.2 (2026-01-16)
+
+## What's Changed
+* fix: adding Copier answers file by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/97
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.1...v1.7.2
+
 ## 1.7.1 (2026-01-15)
 
 ## What's Changed
