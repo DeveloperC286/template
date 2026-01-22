@@ -15,7 +15,7 @@ jobs:
         language: [shell]
     steps:
       - name: Checkout code.
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: Setup Nix.
         uses: cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15 # v31.9.0
       - name: Check formatting.
@@ -30,7 +30,7 @@ jobs:
         language: [shell]
     steps:
       - name: Checkout code.
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: Setup Nix.
         uses: cachix/install-nix-action@4e002c8ec80594ecd40e759629461e26c8abed15 # v31.9.0
       - name: Check linting.
@@ -44,7 +44,7 @@ jobs:
         architecture: [ubuntu-24.04, ubuntu-24.04-arm]
     steps:
       - name: Checkout code.
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: Check scripts permissions.
         run: make check-scripts-permissions
 
@@ -53,6 +53,6 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout code.
-        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: Check common files.
         run: make check-common-files
