@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.7.3 (2026-02-02)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/99
+* chore(deps): update actions/checkout action to v6.0.2 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/101
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/102
+* chore(deps): update alpine docker tag to v3.23.3 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/103
+* chore(deps): update docker/login-action action to v3.7.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/104
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/105
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.2...v1.7.3
+
 ## 1.7.2 (2026-01-16)
 
 ## What's Changed
