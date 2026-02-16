@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.7.4 (2026-02-16)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/106
+* chore(deps): update cachix/install-nix-action action to v31.9.1 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/108
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/109
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.3...v1.7.4
+
 ## 1.7.3 (2026-02-02)
 
 ## What's Changed
