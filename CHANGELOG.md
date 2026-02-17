@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.7.5 (2026-02-17)
+
+## What's Changed
+* chore(deps): update ghcr.io/developerc286/clean_git_history docker tag to v1.2.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/110
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.4...v1.7.5
+
 ## 1.7.4 (2026-02-16)
 
 ## What's Changed
