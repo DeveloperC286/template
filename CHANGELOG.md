@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.7.6 (2026-03-05)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/112
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/114
+* chore(deps): update cachix/install-nix-action action to v31.10.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/115
+* chore(deps): update docker/login-action action to v4 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/116
+* chore(deps): update docker/setup-buildx-action action to v4 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/117
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.5...v1.7.6
+
 ## 1.7.5 (2026-02-17)
 
 ## What's Changed
