@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.7.7 (2026-03-11)
+
+## What's Changed
+* chore(deps): update cachix/install-nix-action action to v31.10.1 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/118
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.6...v1.7.7
+
 ## 1.7.6 (2026-03-05)
 
 ## What's Changed
