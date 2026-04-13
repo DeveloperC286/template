@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.7.7 (2026-04-13)
+
+## What's Changed
+* chore(deps): update cachix/install-nix-action action to v31.10.1 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/118
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/120
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/121
+* chore(deps): update cachix/install-nix-action action to v31.10.2 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/122
+* chore(deps): update cachix/install-nix-action action to v31.10.3 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/123
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/124
+* chore(deps): update docker/login-action action to v4.1.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/125
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/126
+* chore(deps): update cachix/install-nix-action action to v31.10.4 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/127
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/128
+* chore(deps): update googleapis/release-please-action action to v4.4.1 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/129
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.6...v1.7.7
+
 ## 1.7.6 (2026-03-05)
 
 ## What's Changed
