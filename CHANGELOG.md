@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.7.8 (2026-04-22)
+
+## What's Changed
+* chore(deps): update alpine docker tag to v3.23.4 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/130
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/132
+* chore(deps): update cachix/install-nix-action action to v31.10.5 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/133
+* chore(deps): update googleapis/release-please-action action to v5 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/134
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.7...v1.7.8
+
 ## 1.7.7 (2026-04-13)
 
 ## What's Changed
