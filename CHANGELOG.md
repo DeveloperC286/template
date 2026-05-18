@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.7.9 (2026-05-18)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/136
+* chore(deps): update cachix/install-nix-action action to v31.10.6 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/138
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/139
+* build: ignoring Nix result directory by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/140
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/141
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.8...v1.7.9
+
 ## 1.7.8 (2026-04-22)
 
 ## What's Changed
