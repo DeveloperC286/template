@@ -1,5 +1,28 @@
 # Changelog
 
+## 1.7.9 (2026-07-04)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/136
+* chore(deps): update cachix/install-nix-action action to v31.10.6 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/138
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/139
+* build: ignoring Nix result directory by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/140
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/141
+* chore(deps): update docker/login-action action to v4.2.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/142
+* chore(deps): update docker/setup-buildx-action action to v4.1.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/143
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/144
+* chore(deps): update actions/checkout action to v6.0.3 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/145
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/146
+* chore(deps): update alpine docker tag to v3.24.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/147
+* chore(deps): update dependency alpine_3_24/git to v2.54.0-r0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/148
+* chore(deps): update alpine docker tag to v3.24.1 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/149
+* chore(deps): update actions/checkout action to v7 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/150
+* chore(deps): update docker/login-action action to v4.4.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/151
+* chore(deps): update docker/setup-buildx-action action to v4.2.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/152
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.8...v1.7.9
+
 ## 1.7.8 (2026-04-22)
 
 ## What's Changed
