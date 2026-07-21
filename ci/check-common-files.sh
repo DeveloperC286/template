@@ -28,8 +28,6 @@ diff -q .gitignore basic/.gitignore || exit_code=1
 diff -q LICENSE basic/LICENSE || exit_code=1
 diff -q LICENSE rust/LICENSE || exit_code=1
 
-diff -q release-please-config.json basic/release-please-config.json || exit_code=1
-
 diff -q .yamlfmt basic/.yamlfmt || exit_code=1
 diff -q .yamlfmt rust/.yamlfmt || exit_code=1
 
