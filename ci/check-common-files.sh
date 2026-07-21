@@ -33,4 +33,8 @@ diff -q release-please-config.json basic/release-please-config.json || exit_code
 diff -q .yamlfmt basic/.yamlfmt || exit_code=1
 diff -q .yamlfmt rust/.yamlfmt || exit_code=1
 
+# The Copier answers file template has no root canonical, so the flavours are
+# diffed against each other directly.
+diff -q "basic/{{_copier_conf.answers_file}}.jinja" "rust/{{_copier_conf.answers_file}}.jinja" || exit_code=1
+
 exit $exit_code
