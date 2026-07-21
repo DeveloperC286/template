@@ -4,7 +4,7 @@ default:
 
 .PHONY: check-shell-formatting
 check-shell-formatting:
-	shfmt --simplify --diff ci/* rust/ci/*
+	shfmt --simplify --diff ci/*.sh rust/ci/*.sh
 
 .PHONY: check-yaml-formatting
 check-yaml-formatting:
@@ -12,7 +12,7 @@ check-yaml-formatting:
 
 .PHONY: fix-shell-formatting
 fix-shell-formatting:
-	shfmt --simplify --write ci/* rust/ci/*
+	shfmt --simplify --write ci/*.sh rust/ci/*.sh
 
 .PHONY: fix-yaml-formatting
 fix-yaml-formatting:
