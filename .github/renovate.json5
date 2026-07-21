@@ -16,6 +16,17 @@
     {
       "customType": "regex",
       "managerFilePatterns": [
+        "/(^|/)\\.github/workflows/[^/]+\\.ya?ml\\.jinja$/"
+      ],
+      "matchStrings": [
+        "uses:\\s+(?<depName>[\\w.-]+/[\\w.-]+)@(?<currentDigest>[a-f0-9]{40})\\s+#\\s+(?<currentValue>v?[\\d.]+)"
+      ],
+      "datasourceTemplate": "github-tags",
+      "versioningTemplate": "docker"
+    },
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
         "/(^|/|\\.)Dockerfile$/",
         "/(^|/)Dockerfile[^/]*$/"
       ],
