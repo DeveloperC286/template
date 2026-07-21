@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.7.10 (2026-07-21)
+
+## What's Changed
+* chore(deps): update cachix/install-nix-action action to v31.11.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/153
+* chore(deps): update actions/checkout action to v7.0.1 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/155
+* ci: template shell formatting and linting by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/156
+* ci: check shared Copier answers file for drift by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/157
+* ci: Renovate managing GitHub Actions .yml.jinja workflows by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/158
+* chore(deps): update dependency actions/checkout to v6.1.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/159
+* chore(deps): update dependency cachix/install-nix-action to v31.11.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/160
+* chore(deps): update dependency actions/checkout to v7 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/161
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.9...v1.7.10
+
 ## 1.7.9 (2026-07-04)
 
 ## What's Changed
