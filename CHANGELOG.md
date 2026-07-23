@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.7.11 (2026-07-23)
+
+## What's Changed
+* chore(deps): update docker/login-action action to v4.5.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/162
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.10...v1.7.11
+
 ## 1.7.10 (2026-07-21)
 
 ## What's Changed
