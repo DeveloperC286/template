@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.7.12 (2026-08-31)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/171
+* chore(deps): update docker/setup-buildx-action action to v4.3.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/173
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/174
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/175
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.11...v1.7.12
+
 ## 1.7.11 (2026-08-13)
 
 ## What's Changed
