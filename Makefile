@@ -4,7 +4,7 @@ default:
 
 .PHONY: check-shell-formatting
 check-shell-formatting:
-	shfmt --simplify --diff ci/*.sh rust/ci/*.sh
+	shfmt --simplify --diff ci/*.sh rust/ci/*.sh rust/ci/*.sh.jinja
 
 .PHONY: check-yaml-formatting
 check-yaml-formatting:
@@ -12,7 +12,7 @@ check-yaml-formatting:
 
 .PHONY: fix-shell-formatting
 fix-shell-formatting:
-	shfmt --simplify --write ci/*.sh rust/ci/*.sh
+	shfmt --simplify --write ci/*.sh rust/ci/*.sh rust/ci/*.sh.jinja
 
 .PHONY: fix-yaml-formatting
 fix-yaml-formatting:
@@ -24,7 +24,7 @@ check-github-actions-workflows-linting:
 
 .PHONY: check-shell-linting
 check-shell-linting:
-	shellcheck ci/*.sh rust/ci/*.sh
+	shellcheck ci/*.sh rust/ci/*.sh rust/ci/*.sh.jinja
 
 .PHONY: check-scripts-permissions
 check-scripts-permissions:
