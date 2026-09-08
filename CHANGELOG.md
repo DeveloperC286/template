@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.8.0 (2026-09-08)
+
+## What's Changed
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/171
+* chore(deps): update docker/setup-buildx-action action to v4.3.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/173
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/174
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/175
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/176
+* ci: include Jinja shell scripts in formatting and linting checks by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/178
+* feat: validate Rust project name by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/177
+* ci: CD workflow name from "Delivery" to "Deployment" by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/179
+* refactor: Docker Publish use Nix by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/180
+* ci: add check-scripts-permissions.sh to common file validation by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/181
+* ci: validation for Rust dogfood workflow template by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/182
+* chore(deps): update ghcr.io/developerc286/clean_git_history docker tag to v1.2.1 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/183
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.7.11...v1.8.0
+
 ## 1.7.11 (2026-08-13)
 
 ## What's Changed
