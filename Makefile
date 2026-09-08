@@ -8,7 +8,7 @@ check-shell-formatting:
 
 .PHONY: check-yaml-formatting
 check-yaml-formatting:
-	yamlfmt -verbose -lint -dstar .github/workflows/*
+	yamlfmt -verbose -lint -dstar .github/workflows/* rust/.github/workflows/continuous-integration.yml rust/.github/workflows/continuous-deployment.yml
 
 .PHONY: fix-shell-formatting
 fix-shell-formatting:
@@ -16,11 +16,20 @@ fix-shell-formatting:
 
 .PHONY: fix-yaml-formatting
 fix-yaml-formatting:
-	yamlfmt -verbose -dstar .github/workflows/*
+	yamlfmt -verbose -dstar .github/workflows/* rust/.github/workflows/continuous-integration.yml rust/.github/workflows/continuous-deployment.yml
 
 .PHONY: check-github-actions-workflows-linting
 check-github-actions-workflows-linting:
 	actionlint -verbose -color
+	actionlint -verbose -color rust/.github/workflows/continuous-integration.yml rust/.github/workflows/continuous-deployment.yml
+
+.PHONY: check-rust-dogfood-workflow-formatting
+check-rust-dogfood-workflow-formatting:
+	./ci/check-rust-dogfood-workflow-formatting.sh
+
+.PHONY: check-rust-dogfood-workflow-linting
+check-rust-dogfood-workflow-linting:
+	./ci/check-rust-dogfood-workflow-linting.sh
 
 .PHONY: check-shell-linting
 check-shell-linting:

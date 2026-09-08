@@ -25,6 +25,8 @@
             # GitHub Action Workflows.
             pkgs.yamlfmt
             pkgs.actionlint
+            # Copier template rendering.
+            pkgs.copier
           ];
         };
       }
