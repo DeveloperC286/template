@@ -65,8 +65,10 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Nix.
+        uses: cachix/install-nix-action@13d8dd58da0234aa297dedd986986ccb8e7f3e24 # v31.11.1
       - name: Publish Docker Image
-        run: make publish-docker-image RELEASE="${GITHUB_REF_NAME}" PLATFORM="${{ matrix.platform }}" TARGET="${{ matrix.target }}" SUFFIX="${{ matrix.suffix }}"
+        run: nix develop -c make publish-docker-image RELEASE="${GITHUB_REF_NAME}" PLATFORM="${{ matrix.platform }}" TARGET="${{ matrix.target }}" SUFFIX="${{ matrix.suffix }}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
