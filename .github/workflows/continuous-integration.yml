@@ -38,7 +38,10 @@ jobs:
 
   scripts-permissions:
     name: Scripts Permissions
-    runs-on: ubuntu-24.04
+    runs-on: ${{ matrix.architecture }}
+    strategy:
+      matrix:
+        architecture: [ubuntu-24.04, ubuntu-24.04-arm]
     steps:
       - name: Checkout code.
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
