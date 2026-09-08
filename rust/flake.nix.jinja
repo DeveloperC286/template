@@ -18,13 +18,20 @@
           inherit system overlays;
         };
 
-        # Architecture-specific target
-        rustTarget = if pkgs.stdenv.isAarch64
-                     then "aarch64-unknown-linux-musl"
-                     else "x86_64-unknown-linux-musl";
+        # Architecture-specific target for static musl builds. This is the
+        # single source of truth: it selects the Rust toolchain's target below
+        # and is exported to the devShell as MUSL_TARGET, so the Makefile does
+        # not re-derive it. Static musl builds are only supported on Linux
+        # x86_64 and aarch64; elsewhere this is null, no musl target is added
+        # to the toolchain, and the Makefile's `release` target refuses to run.
+        muslTarget =
+          if !pkgs.stdenv.isLinux then null
+          else if pkgs.stdenv.isAarch64 then "aarch64-unknown-linux-musl"
+          else if pkgs.stdenv.isx86_64 then "x86_64-unknown-linux-musl"
+          else null;
 
         rustWithTargets = pkgs.rust-bin.stable.latest.default.override {
-          targets = [ rustTarget ];
+          targets = pkgs.lib.optional (muslTarget != null) muslTarget;
         };
       in
       {
@@ -36,6 +43,10 @@
           # Rust already provides memory safety, so these hardening flags provide
           # minimal benefit while causing build problems.
           hardeningDisable = [ "all" ];
+
+          # Exported into the shell environment, where make picks it up as a
+          # variable. Empty on systems that do not support static musl builds.
+          MUSL_TARGET = pkgs.lib.optionalString (muslTarget != null) muslTarget;
 
           buildInputs = [
             # Rust with cross-compilation targets built-in.

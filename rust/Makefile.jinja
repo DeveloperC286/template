@@ -1,10 +1,6 @@
-# Auto-detect musl target for static binaries (Linux only)
-# Only set MUSL_TARGET on supported architectures; targets that need it will check
-MUSL_TARGET := $(shell uname -m | sed 's/^x86_64$$/x86_64-unknown-linux-musl/;s/^aarch64$$/aarch64-unknown-linux-musl/')
-
-define check-musl-target
-$(if $(filter %unknown-linux-musl,$(MUSL_TARGET)),,$(error Unsupported architecture: $(shell uname -m). Static musl builds only supported on Linux x86_64 and aarch64))
-endef
+# MUSL_TARGET is exported by the Nix development shell, see flake.nix. It is
+# empty on architectures that do not support static musl builds, so targets
+# that need it check before use.
 
 # Use --locked in CI to ensure reproducible builds
 CARGO_LOCKED := $(if $(CI),--locked,)
@@ -86,7 +82,7 @@ end-to-end-test: compile
 
 .PHONY: release
 release:
-	$(call check-musl-target)
+	test -n "$(MUSL_TARGET)" || { echo "MUSL_TARGET is not set, static musl builds are only supported on Linux x86_64 and aarch64." >&2; exit 1; }
 	cargo build --release --target=$(MUSL_TARGET) --locked --verbose
 
 .PHONY: publish-binary
