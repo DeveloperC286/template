@@ -12,8 +12,8 @@ CARGO_LOCKED := $(if $(CI),--locked,)
 .PHONY: default
 default: compile
 
-.PHONY: check-shell-permissions
-check-shell-permissions:
+.PHONY: check-scripts-permissions
+check-scripts-permissions:
 	./ci/check-scripts-permissions.sh
 
 .PHONY: check-rust-formatting
@@ -95,7 +95,7 @@ publish-binary: release
 
 .PHONY: publish-crate
 publish-crate:
-	cargo publish --verbose
+	cargo publish --verbose $(CARGO_LOCKED)
 
 # Emulate GitHub Actions CI environment for testing
 GITHUB_ACTIONS_ENV := --env HOME=/github/home --env GITHUB_ACTIONS=true --env CI=true

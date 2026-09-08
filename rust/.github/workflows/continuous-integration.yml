@@ -12,12 +12,11 @@ jobs:
     strategy:
       matrix:
         architecture: [ubuntu-24.04, ubuntu-24.04-arm]
-        language: [shell]
     steps:
       - name: Checkout code.
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Check permissions.
-        run: make check-${{ matrix.language }}-permissions
+        run: make check-scripts-permissions
 
   formatting:
     name: Formatting
