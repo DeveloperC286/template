@@ -1,4 +1,4 @@
-name: Continuous Delivery (CD)
+name: Continuous Deployment (CD)
 
 on:
   release:
