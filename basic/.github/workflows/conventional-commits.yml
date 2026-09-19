@@ -10,7 +10,7 @@ permissions:
 jobs:
   linting:
     name: Linting
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     container:
       image: ghcr.io/developerc286/conventional_commits_linter:0.17.1@sha256:f1b947937ee884ba7f886d04939cd4858f9aeafb50dcf94925a516c50e43021b
     steps:
