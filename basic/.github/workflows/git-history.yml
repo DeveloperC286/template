@@ -8,7 +8,7 @@ permissions:
 jobs:
   clean:
     name: Clean
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     container:
       image: ghcr.io/developerc286/clean_git_history:1.2.1@sha256:406f703c47b5f5c7785ad631d2fa774da5b761bc9e5c42a361f020a4d49d4075
     steps:
