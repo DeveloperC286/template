@@ -13,8 +13,7 @@ PLATFORM="$2"
 TARGET="$3"
 SUFFIX="$4"
 
-REPOSITORY="$(basename "$(git rev-parse --show-toplevel)")"
-IMAGE="ghcr.io/developerc286/${REPOSITORY}"
+IMAGE="ghcr.io/developerc286/{{ project_name }}"
 
 # Download and extract pre-built binary from the GitHub release for this architecture.
 gh release download "${RELEASE}" --pattern "${TARGET}.tar.gz"
