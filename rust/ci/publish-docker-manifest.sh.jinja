@@ -9,8 +9,7 @@ if [ $# -ne 1 ]; then
 fi
 
 RELEASE="$1"
-REPOSITORY="$(basename "$(git rev-parse --show-toplevel)")"
-IMAGE="ghcr.io/developerc286/${REPOSITORY}"
+IMAGE="ghcr.io/developerc286/{{ project_name }}"
 
 # Create and push the multi-architecture manifest.
 docker buildx imagetools create --tag "${IMAGE}:${RELEASE}" \
