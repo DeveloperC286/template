@@ -4,9 +4,17 @@
     "config:best-practices"
   ],
   "automerge": true,
-  "github-actions": {
-    "enabled": false
-  },
+  // Copier owns these pins; updates arrive via the template and `copier update`.
+  // Order matters: the last matching rule wins, so append any rules that
+  // re-enable project-owned files or dependencies after these.
+  "packageRules": [
+    {
+      // Template workflows. Re-enable your own with a later rule matching
+      // "github-actions" and "matchFileNames", with "enabled": true.
+      "matchManagers": ["github-actions"],
+      "enabled": false
+    }
+  ],
   "nix": {
     "enabled": true,
     "lockFileMaintenance": {

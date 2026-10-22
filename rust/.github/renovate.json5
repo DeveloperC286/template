@@ -4,9 +4,29 @@
     "config:best-practices"
   ],
   "automerge": true,
-  "github-actions": {
-    "enabled": false
-  },
+  // Copier owns these pins; updates arrive via the template and `copier update`.
+  // Order matters: the last matching rule wins, so append any rules that
+  // re-enable project-owned files or dependencies after these.
+  "packageRules": [
+    {
+      // Template workflows. Re-enable your own with a later rule matching
+      // "github-actions" and "matchFileNames", with "enabled": true.
+      "matchManagers": ["github-actions"],
+      "enabled": false
+    },
+    {
+      // Template Dockerfile base image.
+      "matchManagers": ["dockerfile"],
+      "matchDepNames": ["alpine"],
+      "enabled": false
+    },
+    {
+      // Template Dockerfile apk packages; project-added packages still update.
+      "matchManagers": ["custom.regex"],
+      "matchDepNames": ["alpine_*/git"],
+      "enabled": false
+    }
+  ],
   "nix": {
     "enabled": true,
     "lockFileMaintenance": {
