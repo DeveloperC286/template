@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.8.1 (2026-10-23)
+
+## What's Changed
+* ci: restrict GitHub Actions permissions for CD workflow by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/196
+* fix: repository name with template variable in Docker scripts by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/197
+* chore(deps): update alpine docker tag to v3.24.3 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/199
+* chore(deps): update alpine:3.24.3 docker digest to b341357 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/200
+* chore(deps): update dependency cachix/install-nix-action to v31.11.3 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/201
+* chore(deps): update alpine:3.24.3 docker digest to be26560 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/202
+* chore(deps): update docker/login-action action to v4.7.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/203
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.8.0...v1.8.1
+
 ## 1.8.0 (2026-09-28)
 
 ## What's Changed
