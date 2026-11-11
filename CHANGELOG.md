@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.8.1 (2026-11-11)
+
+## What's Changed
+* ci: restrict GitHub Actions permissions for CD workflow by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/196
+* fix: repository name with template variable in Docker scripts by @DeveloperC286 in https://github.com/DeveloperC286/template/pull/197
+* chore(deps): update alpine docker tag to v3.24.3 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/199
+* chore(deps): update alpine:3.24.3 docker digest to b341357 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/200
+* chore(deps): update dependency cachix/install-nix-action to v31.11.3 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/201
+* chore(deps): update alpine:3.24.3 docker digest to be26560 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/202
+* chore(deps): update docker/login-action action to v4.7.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/203
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/204
+* chore(deps): update docker/login-action action to v4.8.0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/205
+* chore(deps): update alpine docker tag to v3.24.4 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/206
+* chore(deps): update alpine:3.24.4 docker digest to f59abe6 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/207
+* chore(deps): update nix flake lock by @renovate[bot] in https://github.com/DeveloperC286/template/pull/208
+* chore(deps): update dependency alpine_3_24/git to v2.54.1-r0 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/209
+* chore(deps): update dependency cachix/install-nix-action to v31.11.4 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/210
+* chore(deps): update dependency cachix/install-nix-action to v31.11.5 by @renovate[bot] in https://github.com/DeveloperC286/template/pull/211
+
+
+**Full Changelog**: https://github.com/DeveloperC286/template/compare/v1.8.0...v1.8.1
+
 ## 1.8.0 (2026-09-28)
 
 ## What's Changed
