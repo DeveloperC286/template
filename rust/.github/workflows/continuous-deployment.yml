@@ -21,7 +21,7 @@ jobs:
       - name: Checkout code.
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Setup Nix.
-        uses: cachix/install-nix-action@3dc140bfc76c49fbd4dd958429132e3746bcb086 # v31.11.5
+        uses: cachix/install-nix-action@bb0495a1086c46893eee56f32fd192dfe4a15bb9 # v32.0.0
       - name: Publish binary.
         run: nix develop -c make publish-binary RELEASE="${GITHUB_REF_NAME}"
         env:
@@ -34,7 +34,7 @@ jobs:
       - name: Checkout code.
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Setup Nix.
-        uses: cachix/install-nix-action@3dc140bfc76c49fbd4dd958429132e3746bcb086 # v31.11.5
+        uses: cachix/install-nix-action@bb0495a1086c46893eee56f32fd192dfe4a15bb9 # v32.0.0
       - name: Publish crate.
         run: nix develop -c make publish-crate
         env:
@@ -70,7 +70,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup Nix.
-        uses: cachix/install-nix-action@3dc140bfc76c49fbd4dd958429132e3746bcb086 # v31.11.5
+        uses: cachix/install-nix-action@bb0495a1086c46893eee56f32fd192dfe4a15bb9 # v32.0.0
       - name: Publish Docker Image
         run: nix develop -c make publish-docker-image RELEASE="${GITHUB_REF_NAME}" PLATFORM="${{ matrix.platform }}" TARGET="${{ matrix.target }}" SUFFIX="${{ matrix.suffix }}"
         env:
